@@ -44,6 +44,24 @@ SHAP
 ## Objective
 
 To build a transparent machine learning pipeline that balances predictive performance with interpretability in healthcare applications.
+## Model Performance
+
+The Random Forest model was evaluated using ROC-AUC.
+
+| Metric | Score |
+|------|------|
+| ROC-AUC | 0.83 |
+| Train-Test Split | 80 / 20 |
+| Algorithm | Random Forest |
+
+The model demonstrates strong predictive performance for identifying diabetes risk using clinical health indicators.
+
+Key influential features identified by the model include:
+
+- Glucose
+- BMI
+- Age
+- Diabetes Pedigree Function
 
 ## Future Work
 
